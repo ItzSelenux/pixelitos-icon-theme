@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Pixelitos
 Comment=Pixel Art Style icons
-Inherits=breeze,hicolor
+Inherits=papirus,hicolor
 
 Example=folder
 
