@@ -23,6 +23,8 @@ DialogSizes=16,22,24,32,48,64
 # Directory list
 Directories=16/actions,16/apps,16/categories,16/devices,16/emblems,16/mimetypes,16/places,16/status,128/actions,128/apps,128/categories,128/devices,128/emblems,128/mimetypes,128/places,128/status
 
+#16x
+#########################################33
 [16/actions]
 Context=Actions
 Size=16
@@ -68,58 +70,60 @@ Context=Status
 Size=16
 Type=Fixed
 
+#128x
+#########################################
 [128/actions]
 Context=Actions
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/apps]
 Context=Applications
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/categories]
 Context=Categories
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/devices]
 Context=Devices
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/emblems]
 Context=Emblems
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/mimetypes]
 Context=MimeTypes
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/places]
 Context=Places
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
 
 [128/status]
 Context=Status
-Size=64
+Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
