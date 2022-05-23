@@ -21,7 +21,7 @@ DialogDefault=16
 DialogSizes=16,22,24,32,48,64
 
 # Directory list
-Directories=16/actions,16/apps,16/categories,16/devices,16/emblems,16/mimetypes,16/places,16/status,128/actions,128/apps,128/categories,128/devices,128/emblems,128/mimetypes,128/places,128/status
+Directories=16/actions,16/apps,16/categories,16/devices,16/emblems,16/mimetypes,16/places,16/status,16/distributor-logo,128/actions,128/apps,128/categories,128/devices,128/emblems,128/mimetypes,128/places,128/status,128/distributor-logo
 
 #16x
 #########################################
@@ -67,6 +67,11 @@ Type=Fixed
 
 [16/status]
 Context=Status
+Size=16
+Type=Fixed
+
+[16/distributor-logo]
+Context=Applications
 Size=16
 Type=Fixed
 
@@ -127,3 +132,11 @@ Size=128
 MinSize=16
 MaxSize=512
 Type=Scalable
+
+[128/distributor-logo]
+Context=Applications
+Size=128
+MinSize=16
+MaxSize=512
+Type=Scalable
+
