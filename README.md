@@ -11,6 +11,23 @@
 git clone https://github.com/ItzSelenux/pixelitos-icon-theme
 ```
 
+> [!Note]
+> Due to space problems in the repository, it only contains the 16x16 icons, so the 128x128 icons (which display correctly in the apps) need to be generated with ImageMagick. 
+
+```
+cd pixelitos-icon-theme
+./compile-icons.sh
+cd ../
+```
+
 ```
 mv pixelitos-icon-theme ~/.local/share/icons/pixelitos
+```
+
+
+### Folder colors
+
+You can choose a folder color by copying the content of a folder from `folder-colors/color` using `folders-color.sh`
+```
+./folder-colors.sh
 ```
