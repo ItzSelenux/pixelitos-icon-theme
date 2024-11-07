@@ -4,7 +4,7 @@
 >[!note]
 > pixelitos-icon-theme is under constantly development, if you want a icon to be added, please make an issue
 
->Looking for Pixelitos in HD? see [Ilustraciones](https://github.com/itzselenux/ilustraciones-icon-theme)
+> Looking for Pixelitos in HD? see [Ilustraciones](https://github.com/itzselenux/ilustraciones-icon-theme)
  
  ## Installation
 ```bash
